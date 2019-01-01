@@ -1,0 +1,123 @@
+﻿<?xml version ="1.0"?>
+<questions>
+<question>
+<value>قام رئيس شركة مساهمة بالعمل على عقد الجمعية العامة في 12/9/2018 لسنة 2018  وقد تبت للمحكمة انه لم يكن سيء النية    
+</value>
+<sujections>
+<sujection>تقوم الجريمة في حقه 
+</sujection>
+<sujection>لا تقوم الجريمة في حقه 
+</sujection>
+</sujections>
+<reponse>1
+</reponse>
+</question>
+<question>
+<value>  لم يقم رئيس شركة المساهمة باستدعاء مالك رقبة لأسهم  والتي اكتسبها مند 10 ايام  واستدعى فقط المنتفع لشركة مساهمة بحجة انه لا يملك الحق في التصويت     
+</value>
+<sujections>
+<sujection>تقوم في حقه جريمة  
+</sujection>
+<sujection>لا تقوم في حقه جريمة 
+</sujection>
+</sujections>
+<reponse>2
+</reponse>
+</question>
+<question>
+<value>قام شريك في شركة التضامن باستعمال حساب بنكي لشراء هدية لزوجته   
+</value>
+<sujections>
+<sujection>تقوم في حقه جريمة التعسف في استعمال اموال الشركة  
+</sujection>
+<sujection>لا تقوم جريمة التعسف في استعمال اموال الشركة
+</sujection>
+</sujections>
+<reponse>1
+</reponse>
+</question>
+<question>
+<value>   قام رئيس شركة مساهمة بارسال استدعاء لصاحب اسهم اسمية قبل 32 يوم  برسالة عادية من انعقاد الجمعية العامة    
+</value>
+<sujections>
+<sujection>تقوم في حقه جريمة عدم الاستدعاء المنصوص عليها في المادة 817 
+</sujection>
+<sujection>لا تقوم الجريمة 
+</sujection>
+</sujections>
+<reponse>1
+</reponse>
+</question>
+<question>
+<value> قام رئيس  شركة المساهمة بمنع  مالك الرقبة من المشاركة في الجمعية العامة العادية     
+</value>
+<sujections>
+<sujection>تقوم جنحة منع المساهمين من المشاركة  
+</sujection>
+<sujection>لا تقوم 
+</sujection>
+</sujections>
+<reponse>2
+</reponse>
+</question>
+<question>
+<value>قام رئيس مكتب الجمعية العامة الغير عادية باتباث قرار زيادة رءس مال شركة المساهمة بعد تأكده من اتخاد القرار من مالكي نصف اسهم الشركة     
+</value>
+<sujections>
+<sujection>لا تقوم في حقه جريمة  
+</sujection>
+<sujection> تقوم في حقه جريمة عدم احتراك القواعد المتعلقة بحقوق التصويت  
+</sujection>
+</sujections>
+<reponse>2
+</reponse>
+</question>
+<question>
+<value>فقدة شركة المسؤولية المحدودة نصف رءسمالها وقام احد الشركاء بايداع شكوى لعدم عقد جمعية     
+</value>
+<sujections>
+<sujection>تقوم الجريمة  
+</sujection>
+<sujection>لا تقوم 
+</sujection>
+</sujections>
+<reponse>2
+</reponse>
+</question>
+<question>
+<value> قام رئيس شركة المساهمة بتقديم حساب استغلال خاطأ  وتبت انه لم يكن يعلم دلك     
+</value>
+<sujections>
+<sujection>تقوم الجريمة لأنه الجريمة لا تتطلب ركن معنوي  
+</sujection>
+<sujection>لا تقوم الجريمة 
+</sujection>
+</sujections>
+<reponse>2
+</reponse>
+</question>
+<question>
+<value>بعد توصل مندوب الحسابات الى معلومات جنحية في شركة قدم استقالته ولم يقدم المعلومات الى وكيل الجمهورية لانه استقال     
+</value>
+<sujections>
+<sujection>تقوم في حقه الجريمة  
+</sujection>
+<sujection>لا تقوم في حقه الجريمة
+</sujection>
+</sujections>
+<reponse>1
+</reponse>
+</question>
+<question>
+<value> قام رئيس شركة اسهم بتوزيع ارباح بدون ان يبقي 10 في المئة كأحتياط قانوني لانه سبق وان شكله في السنة السابقة     
+</value>
+<sujections>
+<sujection>تقوم جنحة توزيع ارباح صورية 
+</sujection>
+<sujection>لا تقوم 
+</sujection>
+</sujections>
+<reponse>2
+</reponse>
+</question>
+</questions>

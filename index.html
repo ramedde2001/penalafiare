@@ -1,0 +1,91 @@
+﻿<html dir="rtl">
+<head>
+<title></title>
+<script>
+            function loadXMLDoc(dname)
+            {
+                if (window.XMLHttpRequest)
+                {
+                    xhttp=new XMLHttpRequest();
+                }
+                else
+                {
+                    xhttp=new ActiveXObject("Microsoft.XMLDOM");
+                }
+
+                xhttp.open("GET",dname,false);
+                xhttp.send();
+                return xhttp.responseXML;
+            }
+var num=0;
+var not=0;
+xmlDoc=loadXMLDoc("question.xml");
+
+
+function send()
+{
+
+var rep=0;
+rep=Number(document.querySelector('[name=suj]:checked').value);
+var an=Number(xmlDoc.getElementsByTagName("question")[num].getElementsByTagName("reponse")[0].textContent)
+if(rep==an)
+
+{
+not++;
+
+}
+
+num++;
+if(num<Number(xmlDoc.getElementsByTagName("question").length))
+{
+
+ di.innerHTML=xmlDoc.getElementsByTagName("value")[num].textContent;
+
+
+ri.innerHTML=xmlDoc.getElementsByTagName("question")[num].getElementsByTagName("sujection")[0].textContent;
+
+si.innerHTML=xmlDoc.getElementsByTagName("question")[num].getElementsByTagName("sujection")[1].textContent
+}
+else
+{
+document.getElementById("fn").innerHTML="  : النقطة النهائية"+not +"من"+num
+}
+}
+
+        </script>
+</head>
+<body>
+
+<div id=1>
+helow world
+</div>
+ <br>
+<form>
+ <input type="radio" name="suj" value="1">
+<div id=2> 
+الاقتراح الاول
+</div>
+
+ <input type="radio" name="suj" value="2">
+<div id=3>
+الاقتراح التاني
+</div>
+</form ">
+
+<script>
+ 
+var di=document.getElementById(1)
+ di.innerHTML=xmlDoc.getElementsByTagName("value")[num].textContent;
+var ri=document.getElementById(2)
+ri.innerHTML=xmlDoc.getElementsByTagName("question")[num].getElementsByTagName("sujection")[0].textContent;
+var si=document.getElementById(3);
+si.innerHTML=xmlDoc.getElementsByTagName("question")[num].getElementsByTagName("sujection")[1].textContent
+</script>
+<button type="button" onclick="send()">ارسل</button> 
+<div id="fn"></div>
+<br>
+<br>
+<br>
+<div style="text-align:center;"><script type="text/javascript" src="http://services.webestools.com/cpt_visitors/59527-11-4.js"></script></div><a href="http://www.webestools.com/" style="display:block;text-align:center;" title="Tools services webmasters counters generators scripts tutorials free"><img src="http://www.webestools.com/images/ban03.gif" alt="Tools services webmasters counters generators scripts tutorials free" /></a>
+</body>
+</html>
